@@ -19,8 +19,16 @@ def main():
     print("List of targets : ", target_list)
 
     images = data.reshape((-1,28,28))
+    
+    print("======= Plot an array data  =======")
+    print("Target = ", target[0])
+    print("Data in shape of (28,28) : \n",images[0])
+    print("Press Q to continue...")
+    plt.imshow(images[0])
+    plt.show()
+    
     print("======= Plot random data ==========")
-
+    print("Press Q to continue...")
     plt.figure(figsize=(12,8))
     for i in range(10):
         idx = np.random.randint(len(data))
@@ -38,7 +46,7 @@ if __name__ == '__main__':
     ap.add_argument("-d", "--dataset", required=False,  default='mnist_784',\
                 help="name of dataset from openML, type = string (available here : 'mnist_784', 'Fashion-MNIST')")
     args = vars(ap.parse_args())
-    print("[DOC] -h for help")
+    print("[DOC] Insert -h for help")
     DATA_NAME = args['dataset']
     print("Explore dataset", DATA_NAME)
     print("===================================")
