@@ -10,7 +10,6 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.metrics import precision_score, precision_recall_curve, average_precision_score
 from sklearn.metrics import classification_report
-from sklearn.metrics import roc_curve
 from sklearn.metrics import roc_curve, zero_one_loss
 
 def load_data(dataname):
