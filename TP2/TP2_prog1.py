@@ -42,8 +42,11 @@ def main():
     ## training model
     print("============================")
     print("Training model...")
+    start = time.clock()
     mlp.fit(X_train,y_train)
+    exec_time = time.clock() - start
     print("Finish training.")
+    print("Execution time : {} ms".format(exec_time*1000))
     print("Training accuracy: %f" % mlp.score(X_train, y_train))
     print("Training loss : %f" % zero_one_loss(y_train, mlp.predict(X_train)))
     print("Test accuracy: %f" % mlp.score(X_test, y_test))
