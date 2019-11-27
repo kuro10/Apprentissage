@@ -27,9 +27,6 @@ def load_data(dataname):
     print("Testing data shape : ", X_test.shape)
     print("Testing target shape : ", y_test.shape)
     
-    X_train, y_train = X_train[:500], y_train[:500]
-    X_test, y_test = X_test[:500], y_test[:500]
-    
     return X_train,X_test,y_train,y_test
 
 
@@ -47,7 +44,7 @@ def main():
     clf.fit(X_train,y_train)
     exec_time = time.clock() - start
     print("Finish training.")
-    print("Execution time : ",exec_time)
+    print("Execution time : {} ms".format(exec_time*1000))
     print("Training accuracy: %f" % clf.score(X_train, y_train))
     print("Training loss : %f" % zero_one_loss(y_train, clf.predict(X_train)))
     print("Test accuracy: %f" % clf.score(X_test, y_test))
