@@ -1,21 +1,29 @@
-# Apprentissage
+# UF Apprentissage
 INSA - 5SDBD - TP Apprentissage
 
 
-## Todo 
+## TP Supervised Learning with Scikit-learn
 
-- [x] TP1_prog1.py
+* **TP1** : K Nearest Neighbors (KNN)
 
-- [X] TP1_prog2.py
+* **TP2** : Artificial Neural Networks (ANN)
 
-- [x] TP1.ipynb (+ plot graphs)
+* **TP3** : Support Vector Machine (SVM)
 
-- [x] TP2_prog1.py
+## Struture 
 
-- [x] TP2.ipynb (+ plot graphs)
+- [x] TP1/TP1_prog1.py
 
-- [x] TP3_prog1.py
+- [X] TP1/TP1_prog2.py
 
-- [x] TP3.ipynb (+ plot graphs)
+- [x] TP1/TP1.ipynb (demo + plot graphs)
 
-- [x] summary.ipynb (comparaison)
+- [x] TP2/TP2_prog1.py
+
+- [x] TP2/TP2.ipynb (demo + plot graphs)
+
+- [x] TP3/TP3_prog1.py
+
+- [x] TP3/TP3.ipynb (demo + plot graphs)
+
+- [x] TP_Supervised_Review.ipynb (comparaison + graphs)
