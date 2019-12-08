@@ -26,4 +26,4 @@ INSA - 5SDBD - TP Apprentissage
 
 - [x] TP3/TP3.ipynb (demo + plot graphs)
 
-- [x] TP_Supervised_Review.ipynb (comparaison + graphs)
+- [x] TP_Supervised_Review.ipynb (comparison + graphs)
