@@ -9,7 +9,7 @@ INSA - 5SDBD - TP Apprentissage
 - DBSCAN
 - HDBSCAN
 
-## Struture 
+## Structure 
 
 - [x] TP4.ipynb (exploring 4 methods + graph + comparison)
 - [x] TP_UnsupervisedLearning_TRANTrongHieu_TRANLeMinh.pdf (main report)
