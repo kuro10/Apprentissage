@@ -10,7 +10,7 @@ INSA - 5SDBD - TP Apprentissage
 
 * **TP3** : Support Vector Machine (SVM)
 
-## Struture 
+## Structure 
 
 - [x] TP1/TP1_prog1.py
 
